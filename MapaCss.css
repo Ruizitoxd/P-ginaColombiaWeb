@@ -1,0 +1,296 @@
+
+#COLOMBIACITY{
+    position: relative;
+    right: 10%;
+}
+
+#MENUCITY{
+    display: grid;
+    grid-template-rows: 25% 35% 40%;
+    grid-template-columns: 65% 35%;
+    border: 10px white;
+    border-width: 2px;
+    border-left-style: dashed;
+}
+
+.EspeFloris{
+    margin: 0;
+    font-family:'Billion Dreams';
+    font-size: 110px;
+    color: #ffffff;
+    top: 6%;
+    left: 5%;
+    position: relative;
+    width: 800px;
+}
+.DColo{
+    margin: 0;
+    font-family:'Caviar Dreams';
+    font-size: 55px;
+    color: #ffffff;
+    left: 32%;
+    bottom: 2%;
+    position: relative;
+    width: 340px;
+}
+.BotonColombia{
+    position: relative;
+    width: 140px;
+    left: 80%;
+    bottom: 77%;
+}
+
+.Menu{
+    margin: 0;
+    font-family:'Caviar Dreams';
+    font-size:70px;
+    font-weight: bolder;
+    color: #ffffff;
+    top: 5%;
+    left:39.17%;
+    position: relative;
+    width: 200px;
+}
+
+#ImportarBT{
+    position: relative;
+    top: 5%;
+    left: 39%;
+}
+
+button{
+    font-family: 'Caviar Dreams';
+    font-size: 17px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1f2937;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+    cursor: pointer;
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0)),
+      color-stop(rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.3))
+    );
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    );
+}
+  
+.label {
+    position: relative;
+    top: -1px;
+}
+
+.transition {
+    -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    background-color: rgba(76,201,201,0.8);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button:hover .transition {
+    width: 14em;
+    height: 14em;
+}
+
+button:active {
+    -webkit-transform: scale(0.97);
+    -ms-transform: scale(0.97);
+    transform: scale(0.97);
+}
+
+#flores{
+    display: inline-block;
+    padding: 10px;
+    width: 600px;
+    height: 50px;
+    border: 2px solid #3b5052;
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+    background-color: transparent;
+    border-radius: 10px;
+    top: 25%;
+    right: 4%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#flores:focus{
+    border-color: #4cc9c9;
+    outline: none;
+}
+#flores option{
+    background-color: #0a3838;
+}
+
+.departamento {
+    fill: #95cbcf;
+    stroke-width: 0.5;
+}
+
+.sexo {
+    position: absolute;
+    top: 11%;
+    left: 29%;
+    width: 622px;
+    filter: invert(60%) sepia(100%) hue-rotate(185deg) brightness(73.5%) saturate(55.5%);
+    opacity: 0.65;
+    z-index: -1;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: linear-gradient(rgba(0, 35, 35, 0.9), rgba(0,0,0,0.9)),
+                url(FondoKaren.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.florInfo{
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 4px;
+    height: fit-content;
+    width: fit-content;
+    font-style: 'Caviar Dreams';
+    font-size: 20px;
+    color: white;
+}
+
+.florDato{
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+    font-style: 'Caviar Dreams';
+    font-size: 19px;
+    color: #5f6964;
+}
+
+.TextoBloq{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+#GraficoFlores {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    height: 100%;
+    align-self: flex-end;
+    justify-content: space-around;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+#Bola{
+    display: flex;
+    justify-content: flex-end;
+}
+#ojo{
+    width: 150px;
+}
+
+#boca{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: fit-content;
+}
+#TextoEspe{
+    font-style: 'Caviar Dreams';
+    font-size: 20px;
+    color: white;
+    text-align: end;
+}
+
+#nariz{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: fit-content;
+}
+#TextoTotal{
+    font-style: 'Caviar Dreams';
+    font-size: 20px;
+    color: white;
+    text-align: end;
+}
+
+#BolaVerde{
+    width: 3.5rem;
+    height: 3.5rem;
+    filter: brightness(0) saturate(100%) invert(37%) sepia(56%) saturate(1933%) hue-rotate(148deg) brightness(101%) contrast(101%);
+}
+
+#BolaBlanca{
+    width: 3.5rem;
+    height: 3.5rem;
+    
+}
+
+#TituloFlores {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+#MenuFlores {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    border: 10px white;
+    border-width: 2px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+}
+
+#DescFlores {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
